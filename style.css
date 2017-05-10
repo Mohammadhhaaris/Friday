@@ -1,5 +1,70 @@
-div {color:red;} 
-#inter1 {color:green;}
-p {
-	font-family:"times new roman",times, serif;
-{
+html {
+	background: url(http://www.zastavki.com/pictures/1680x1050/2011/People_Different_people_Afghan_girl_photo_030376_.jpg)
+}
+
+body {
+	margin:5;
+
+}
+header {
+	
+	background: black;
+	    color:red;
+	    margin:0;
+	    padding:25px 30px;
+       }
+
+header h1 {
+	margin:0;
+	display:inline;
+         
+}
+
+nav ul{
+       margin:0;
+       display:inline;
+       padding:0;
+}
+
+nav ul li {
+	background:green;
+	color:black;
+	display: inline-block;
+	list-style-position: none;
+	padding:5px 15px;
+	margin:0;
+}
+
+nav ul li a {
+	color:blue;
+}
+
+.row {
+      clear:both;
+}
+
+.col{
+	border-radius: 5px;
+	float:left;
+	background: blue;
+	color:white;
+	width:31%;
+	margin:0.5%;
+	padding:0.6%;
+}
+
+footer {
+	clear:both;
+	color:red;
+}
+
+form {
+	float:right;
+	width:29%;
+}
+#inter1{
+	color:orange;
+}
+h2 {
+	color:purple;
+}
